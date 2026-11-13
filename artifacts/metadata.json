@@ -1,0 +1,22 @@
+{
+    "model_type": "LinearRegression",
+    "target": "PJMW_MW",
+    "frequency": "hourly",
+    "forecast_horizon_hours": 720,
+    "features": [
+        "hour",
+        "day",
+        "day_of_week",
+        "month",
+        "year",
+        "day_of_year",
+        "lag_1",
+        "lag_24",
+        "lag_168",
+        "rolling_24",
+        "rolling_168"
+    ],
+    "test_mae": 158.91265466022153,
+    "test_rmse": 198.6013153963992,
+    "test_r2": 0.9617893919463373
+}
